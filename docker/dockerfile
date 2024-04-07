@@ -9,7 +9,7 @@ RUN apt-get update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-RUN git clone https://github.com/OpenDriveLab/OpenLane-V2.git /OpenLaneV2\
+RUN git clone https://github.com/CNWindson/OpenLane-V2.git /OpenLaneV2\
     && cd /OpenLaneV2 \
     && pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/ \
     && pip install --no-cache-dir -e .
