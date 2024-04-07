@@ -32,7 +32,7 @@ install_requires = [
     "ninja",
     #"jupyter",
     #"openmim",
-    "matplotlib==3.5.2s",
+    "matplotlib==3.5.2",
     "numpy >=1.22.0, <1.24.0",
     "scikit-learn==1.0.0",
     "similaritymeasures",
