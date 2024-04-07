@@ -28,13 +28,13 @@ from setuptools import setup, find_packages
 
 
 install_requires = [
-    "tqdm",
+    "tqdm==4.5.0",
     "ninja",
-    "jupyter",
-    "openmim",
-    "matplotlib",
+    #"jupyter",
+    #"openmim",
+    "matplotlib==3.5.2s",
     "numpy >=1.22.0, <1.24.0",
-    "scikit-learn",
+    "scikit-learn==1.0.0",
     "similaritymeasures",
     "opencv-python",
     "scipy==1.8.0",

@@ -135,6 +135,8 @@ dmypy.json
 .python_history
 
 data/OpenLane-V2/*
+data/train
+data/*.tar
 !data/OpenLane-V2/data_dict_sample.json
 !data/OpenLane-V2/data_dict_example.json
 !data/OpenLane-V2/openlanev2.md5
